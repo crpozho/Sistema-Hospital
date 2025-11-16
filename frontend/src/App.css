@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(180deg, #e6f2ff, #f9fcff);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* NAVBAR */
+.custom-navbar {
+  background: #004aad;
+  padding: 0.6rem 1rem !important;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  margin-right: 14px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffda44 !important;
+  transform: scale(1.05);
+}
+
+/* HEADER */
+.header-banner {
+  background: linear-gradient(90deg, #0078d7, #004aad);
+  color: #fff;
+  padding: 1.2rem 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-banner img {
+  width: 60px;
+}
+
+.header-banner h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header-banner p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* TABLAS */
+.table-dark {
+  background-color: #004aad !important;
+}
+
+/* FOOTER */
+footer {
+  background: #f1f6fb;
+  text-align: center;
+  padding: 1rem;
+  color: #333;
+  margin-top: 2rem;
+}
