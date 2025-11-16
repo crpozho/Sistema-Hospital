@@ -1,17 +1,17 @@
 # Node dependencies
 node_modules/
 
-# Env files
+# Environment files
 .env
 
-# Build folders
+# Build and cache folders
 frontend/build/
 backend/node_modules/
 
 # Logs
 *.log
 
-# IDE and system files
+# IDE/system files
 .vscode/
 .DS_Store
 Thumbs.db
